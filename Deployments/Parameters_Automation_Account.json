@@ -10,7 +10,7 @@
                 "Environment": "Dev",
                 "ApplicationName": "TeamsUsage",
                 "BusinessUnit": "IGUnified",
-                "Responsible": "jmartinez,jvasquezb"
+                "Owner": "jmartinez,jvasquezb"
             }
         },
         "credsName": {
@@ -99,7 +99,7 @@
                 "Environment": "Dev",
                 "ApplicationName": "TeamsUsage",
                 "BusinessUnit": "IGUnified",
-                "Responsible": "jmartinez,jvasquezb"
+                "Owner": "jmartinez,jvasquezb"
             }
         },
         "newPowerShellRunbookName1": {
@@ -113,7 +113,7 @@
                 "Environment": "Dev",
                 "ApplicationName": "TeamsUsage",
                 "BusinessUnit": "IGUnified",
-                "Responsible": "jmartinez,jvasquezb"
+                "Owner": "jmartinez,jvasquezb"
             }
         }
     }
