@@ -8,7 +8,8 @@
         "accountTags": {
             "value": {
                 "Environment": "Dev",
-                "Department": "IGUnified",
+                "ApplicationName": "TeamsUsage",
+                "BusinessUnit": "IGUnified",
                 "Responsible": "jmartinez,jvasquezb"
             }
         },
@@ -96,7 +97,8 @@
         "newPowerShellRunbookTags": {
             "value": {
                 "Environment": "Dev",
-                "Department": "IGUnified",
+                "ApplicationName": "TeamsUsage",
+                "BusinessUnit": "IGUnified",
                 "Responsible": "jmartinez,jvasquezb"
             }
         },
@@ -109,7 +111,8 @@
         "newPowerShellRunbookTags1": {
             "value": {
                 "Environment": "Dev",
-                "Department": "IGUnified",
+                "ApplicationName": "TeamsUsage",
+                "BusinessUnit": "IGUnified",
                 "Responsible": "jmartinez,jvasquezb"
             }
         }
