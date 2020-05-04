@@ -1,0 +1,117 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "accountName": {
+            "value": "autoacct-iguc-intergrupo-teamsbi-dev-eastus"
+        },
+        "accountTags": {
+            "value": {
+                "Environment": "Dev",
+                "Department": "IGUnified",
+                "Responsible": "jmartinez,jvasquezb"
+            }
+        },
+        "credsName": {
+            "value": "autoacct-creds-sqlsrvetlfwstg"
+        },
+        "credsUsername": {
+            "value": "adminsql"
+        },
+        "credsDescription": {
+            "value": "Credentials for SQL Server Framework/Staging"
+        },
+        "credsPassword": {
+            "value": "changeme"
+        },
+        "credsName1": {
+            "value": "autoacct-creds-sqlsrvdw"
+        },
+        "credsUsername1": {
+            "value": "adminsql"
+        },
+        "credsDescription1": {
+            "value": "Credentials for SQL Server Datawarehouse"
+        },
+        "credsPassword1": {
+            "value": "changeme"
+        },
+        "credsName2": {
+            "value": "autoacct-creds-webapiapp-msgraph"
+        },
+        "credsUsername2": {
+            "value": "guidclientid"
+        },
+        "credsDescription2": {
+            "value": "Client Id and Secret for MS Graph Web API App"
+        },
+        "credsPassword2": {
+            "value": "changeme"
+        },
+        "credsName3": {
+            "value": "autoacct-creds-ewsapi"
+        },
+        "credsUsername3": {
+            "value": "user@domain.com"
+        },
+        "credsDescription3": {
+            "value": "Credentials for Exchange Web Services Managed API"
+        },
+        "credsPassword3": {
+            "value": "changeme"
+        },
+        "varName": {
+            "value": "autoacct-envvar-sqlsrvetlfwstg"
+        },
+        "varValue": {
+            "value": "\"sqldb-igunified-bisolutions-dev-eastus.database.windows.net\""
+        },
+        "varDescription": {
+            "value": "Environment Variable for SQL Server Framework/Staging Hostname"
+        },
+        "varName1": {
+            "value": "autoacct-envvar-sqlportetlfwstg"
+        },
+        "varValue1": {
+            "value": "1433"
+        },
+        "varDescription1": {
+            "value": "Environment Variable for SQL Server Framework/Staging Port number"
+        },
+        "varName2": {
+            "value": "autoacct-envvar-sqldbetlfwstg"
+        },
+        "varValue2": {
+            "value": "\"sqldb-igunified-bisolutions-dev-eastus\""
+        },
+        "varDescription2": {
+            "value": "Environment Variable for SQL Server Framework/Staging Database name"
+        },
+        "newPowerShellRunbookName": {
+            "value": "psrunbook-iguc-intergrupo-teamsbi-teamsusers-dev-eastus"
+        },
+        "newPowerShellRunbookDescription": {
+            "value": "PowerShell Script to get Teams Enabled Users"
+        },
+        "newPowerShellRunbookTags": {
+            "value": {
+                "Environment": "Dev",
+                "Department": "IGUnified",
+                "Responsible": "jmartinez,jvasquezb"
+            }
+        },
+        "newPowerShellRunbookName1": {
+            "value": "psrunbook-iguc-intergrupo-teamsbi-teamscalldetailrecords-dev-eastus"
+        },
+        "newPowerShellRunbookDescription1": {
+            "value": "PowerShell Script to get Teams Call Detail Records"
+        },
+        "newPowerShellRunbookTags1": {
+            "value": {
+                "Environment": "Dev",
+                "Department": "IGUnified",
+                "Responsible": "jmartinez,jvasquezb"
+            }
+        }
+    }
+}
