@@ -1,0 +1,75 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "serverName": {
+            "value": "sql-iguc-intergrupo-teamsbi-dev-eastus"
+        },
+        "administratorLogin": {
+            "value": "adminsql"
+        },
+        "administratorLoginPassword": {
+            "value": null
+        },
+        "serverTags": {
+            "value": {
+                "Environment": "Dev",
+                "ApplicationName": "TeamsUsage",
+                "BusinessUnit": "IGUnified",
+                "Owner": "jmartinez,jvasquezb"
+            }
+        },
+        "databaseName": {
+            "value": "sqldb-iguc-intergrupo-teamsbi-etlfwstg-dev-eastus"
+        },
+        "databaseTags": {
+            "value": {
+                "Environment": "Dev",
+                "ApplicationName": "TeamsUsage",
+                "BusinessUnit": "IGUnified",
+                "Owner": "jmartinez,jvasquezb"
+            }
+        },
+        "database1Name": {
+            "value": "sqldb-iguc-intergrupo-teamsbi-dw-dev-eastus"
+        },
+        "database1Tags": {
+            "value": {
+                "Environment": "Dev",
+                "ApplicationName": "TeamsUsage",
+                "BusinessUnit": "IGUnified",
+                "Owner": "jmartinez,jvasquezb"
+            }
+        },
+        "skuName": {
+            "value": "Basic"
+        },
+        "skuTier": {
+            "value": "Basic"
+        },
+        "skuCapacity": {
+            "value": "5"
+        },
+        "collation": {
+            "value": "SQL_Latin1_General_CP1_CI_AS"
+        },
+        "maxSizeBytes": {
+            "value": "2147483648"
+        },
+        "zoneRedundant": {
+            "value": false
+        },
+        "allowAzureIps": {
+            "value": true
+        },
+        "allowClientIp": {
+            "value": true
+        },
+        "clientIpRuleName": {
+            "value": "ClientIp-Jvaquezb"
+        },
+        "clientIpValue": {
+            "value": "179.15.8.191"
+        }
+    }
+}
