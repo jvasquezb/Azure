@@ -9,7 +9,7 @@
             "value": "adminsql"
         },
         "administratorLoginPassword": {
-            "value": null
+            "value": "changeme"
         },
         "serverTags": {
             "value": {
