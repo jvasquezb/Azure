@@ -1,0 +1,62 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "serverName": {
+            "value": "sql-corp-reporiesgos-pdn"
+        },
+        "administratorLogin": {
+            "value": "corpreporiesgosadmin"
+        },
+        "administratorLoginPassword": {
+            "value": "Changeme2020."
+        },
+        "serverTags": {
+            "value": {
+                "Centro de costos": "150707000",
+                "Propietario ": "Hector Daniel Lizarralde",
+                "Proyecto": "Repositorio Riesgos"
+            }
+        },
+        "databaseName": {
+            "value": "sqldb1-corp-reporiesgos-pdn"
+        },
+        "databaseTags": {
+            "value": {
+                "Centro de costos": "150707000",
+                "Propietario ": "Hector Daniel Lizarralde",
+                "Proyecto": "Repositorio Riesgos"
+            }
+        },
+        "skuName": {
+            "value": "Standard"
+        },
+        "skuTier": {
+            "value": "Standard"
+        },
+        "skuCapacity": {
+            "value": "10"
+        },
+        "collation": {
+            "value": "SQL_Latin1_General_CP1_CI_AS"
+        },
+        "maxSizeBytes": {
+            "value": "10737418240"
+        },
+        "zoneRedundant": {
+            "value": false
+        },
+        "allowAzureIps": {
+            "value": true
+        },
+        "allowClientIp": {
+            "value": true
+        },
+        "clientIpRuleName": {
+            "value": "ClientIp-jvaquezb@intergrupo.com"
+        },
+        "clientIpValue": {
+            "value": "179.15.8.191"
+        }
+    }
+}
