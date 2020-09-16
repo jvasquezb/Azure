@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "accountName": {
-            "value": "autoacct-iguc-intergrupo-teamsbi-dev-eastus"
+            "value": "autoacct-iguc-intergrupo-teamsbi-prod-eastus"
         },
         "accountTags": {
             "value": {
@@ -54,7 +54,7 @@
             "value": "autoacct-envvar-sqlsrv"
         },
         "varValue": {
-            "value": "\"sql-iguc-intergrupo-teamsbi-dev-eastus.database.windows.net\""
+            "value": "\"sql-iguc-intergrupo-teamsbi-prod-eastus.database.windows.net\""
         },
         "varDescription": {
             "value": "Environment variable for Azure SQL Server Hostname"
@@ -72,7 +72,7 @@
             "value": "autoacct-envvar-sqldb"
         },
         "varValue2": {
-            "value": "\"sqldb-iguc-intergrupo-teamsbi-dev-eastus\""
+            "value": "\"sqldb-iguc-intergrupo-teamsbi-prod-eastus\""
         },
         "varDescription2": {
             "value": "Environment variable for Azure SQL Database name"
@@ -81,7 +81,7 @@
             "value": "autoacct-envvar-azresourcegroup"
         },
         "varValue3": {
-            "value": "\"rg-iguc-intergrupo-teamsbi-dev-eastus\""
+            "value": "\"rg-iguc-intergrupo-teamsbi-prod-eastus\""
         },
         "varDescription3": {
             "value": "Environment variable for the Azure Resource Group that host the solution"
@@ -90,7 +90,7 @@
             "value": "autoacct-envvar-azautoaccountname"
         },
         "varValue4": {
-            "value": "\"autoacct-iguc-intergrupo-teamsbi-dev-eastus\""
+            "value": "\"autoacct-iguc-intergrupo-teamsbi-prod-eastus\""
         },
         "varDescription4": {
             "value": "Environment variable for the Azure Automation Account name"
