@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "serverName": {
+            "value": "sql-iguc-lineadirecta-teamsbi-dev-eastus"
+        },
+        "administratorLogin": {
+            "value": "adminsql"
+        },
+        "administratorLoginPassword": {
+            "value": "Changeme2020."
+        },
+        "serverTags": {
+            "value": {
+                "BusinessUnit": "IGUnified",
+                "FinalCustomer": "Linea Directa",
+                "ApplicationName": "TeamsBI",
+                "Environment": "Dev",
+                "Owner": "jmartinez,jvasquezb"
+            }
+        },
+        "databaseName": {
+            "value": "sqldb-iguc-lineadirecta-teamsbi-dev-eastus"
+        },
+        "databaseTags": {
+            "value": {
+                "BusinessUnit": "IGUnified",
+                "FinalCustomer": "Linea Directa",
+                "ApplicationName": "TeamsBI",
+                "Environment": "Dev",
+                "Owner": "jmartinez,jvasquezb"
+            }
+        },
+        "skuName": {
+            "value": "Basic"
+        },
+        "skuTier": {
+            "value": "Basic"
+        },
+        "skuCapacity": {
+            "value": "5"
+        },
+        "collation": {
+            "value": "SQL_Latin1_General_CP1_CI_AS"
+        },
+        "maxSizeBytes": {
+            "value": "2147483648"
+        },
+        "zoneRedundant": {
+            "value": false
+        },
+        "allowAzureIps": {
+            "value": true
+        },
+        "allowClientIp": {
+            "value": true
+        },
+        "clientIpRuleName": {
+            "value": "ClientIp-Jvaquezb"
+        },
+        "clientIpValue": {
+            "value": "177.254.23.95"
+        }
+    }
+}
