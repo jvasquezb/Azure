@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "serverName": {
-            "value": "sql-iguc-lineadirecta-teamsbi-prod-eastus"
+            "value": "sql-iguc-summa-teamsbi-dev-eastus"
         },
         "administratorLogin": {
             "value": "adminsql"
@@ -14,21 +14,21 @@
         "serverTags": {
             "value": {
                 "BusinessUnit": "IGUnified",
-                "FinalCustomer": "Linea Directa",
+                "FinalCustomer": "SUMMA",
                 "ApplicationName": "TeamsBI",
-                "Environment": "Prod",
+                "Environment": "Dev",
                 "Owner": "jmartinez,jvasquezb"
             }
         },
         "databaseName": {
-            "value": "sqldb-iguc-lineadirecta-teamsbi-prod-eastus"
+            "value": "sqldb-iguc-summa-teamsbi-dev-eastus"
         },
         "databaseTags": {
             "value": {
                 "BusinessUnit": "IGUnified",
-                "FinalCustomer": "Linea Directa",
+                "FinalCustomer": "SUMMA",
                 "ApplicationName": "TeamsBI",
-                "Environment": "Prod",
+                "Environment": "Dev",
                 "Owner": "jmartinez,jvasquezb"
             }
         },
@@ -60,7 +60,7 @@
             "value": "ClientIp-Jvaquezb"
         },
         "clientIpValue": {
-            "value": "177.254.23.95"
+            "value": "177.254.30.85"
         }
     }
 }
