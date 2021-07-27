@@ -3,14 +3,14 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "accountName": {
-            "value": "autoacct-iguc-lineadirecta-teamsbi-prod-eastus"
+            "value": "autoacct-iguc-summa-teamsbi-dev-eastus"
         },
         "accountTags": {
             "value": {
                 "BusinessUnit": "IGUnified",
-                "FinalCustomer": "Linea Directa",
+                "FinalCustomer": "SUMMA",
                 "ApplicationName": "TeamsBI",
-                "Environment": "Prod",
+                "Environment": "Dev",
                 "Owner": "jmartinez,jvasquezb"
             }
         },
@@ -38,23 +38,11 @@
         "credsPassword1": {
             "value": "changeme"
         },
-        "credsName2": {
-            "value": "autoacct-creds-ewsapi"
-        },
-        "credsUsername2": {
-            "value": "user@domain.com"
-        },
-        "credsDescription2": {
-            "value": "Credentials for Exchange Web Services Managed API"
-        },
-        "credsPassword2": {
-            "value": "changeme"
-        },
         "varName": {
             "value": "autoacct-envvar-sqlsrv"
         },
         "varValue": {
-            "value": "\"sql-iguc-lineadirecta-teamsbi-prod-eastus.database.windows.net\""
+            "value": "\"sql-iguc-summa-teamsbi-dev-eastus.database.windows.net\""
         },
         "varDescription": {
             "value": "Environment variable for Azure SQL Server Hostname"
@@ -72,7 +60,7 @@
             "value": "autoacct-envvar-sqldb"
         },
         "varValue2": {
-            "value": "\"sqldb-iguc-lineadirecta-teamsbi-prod-eastus\""
+            "value": "\"sqldb-iguc-summa-teamsbi-dev-eastus\""
         },
         "varDescription2": {
             "value": "Environment variable for Azure SQL Database name"
@@ -81,7 +69,7 @@
             "value": "autoacct-envvar-azresourcegroup"
         },
         "varValue3": {
-            "value": "\"rg-iguc-lineadirecta-teamsbi-prod-eastus\""
+            "value": "\"rg-iguc-summa-teamsbi-dev-eastus\""
         },
         "varDescription3": {
             "value": "Environment variable for the Azure Resource Group that host the solution"
@@ -90,77 +78,53 @@
             "value": "autoacct-envvar-azautoaccountname"
         },
         "varValue4": {
-            "value": "\"autoacct-iguc-lineadirecta-teamsbi-prod-eastus\""
+            "value": "\"autoacct-iguc-summa-teamsbi-dev-eastus\""
         },
         "varDescription4": {
             "value": "Environment variable for the Azure Automation Account name"
         },
-        "varName5": {
-            "value": "autoacct-envvar-azrunbookgetteamscalldetailrecords"
-        },
-        "varValue5": {
-            "value": "\"psrunbook-getteamscalldetailrecords\""
-        },
-        "varDescription5": {
-            "value": "Environment variable for the name of the runbook GetTeamsCallDetailRecords"
-        },
         "newPowerShellRunbookName": {
-            "value": "psrunbook-getteamsusers"
+            "value": "psrunbook-getazureadusers"
         },
         "newPowerShellRunbookDescription": {
-            "value": "PowerShell Script to get Teams Enabled Users"
+            "value": "PowerShell Script to get Azure AD Users"
         },
         "newPowerShellRunbookTags": {
             "value": {
                 "BusinessUnit": "IGUnified",
-                "FinalCustomer": "Linea Directa",
+                "FinalCustomer": "SUMMA",
                 "ApplicationName": "TeamsBI",
-                "Environment": "Prod",
+                "Environment": "Dev",
                 "Owner": "jmartinez,jvasquezb"
             }
         },
         "newPowerShellRunbookName1": {
-            "value": "psrunbook-getteamscalldetailrecords"
+            "value": "psrunbook-getteamsdirectroutingcalls"
         },
         "newPowerShellRunbookDescription1": {
-            "value": "PowerShell Script to get Teams Call Detail Records"
+            "value": "PowerShell Script to get Teams Direct Routing Calls"
         },
         "newPowerShellRunbookTags1": {
             "value": {
                 "BusinessUnit": "IGUnified",
-                "FinalCustomer": "Linea Directa",
+                "FinalCustomer": "SUMMA",
                 "ApplicationName": "TeamsBI",
-                "Environment": "Prod",
+                "Environment": "Dev",
                 "Owner": "jmartinez,jvasquezb"
             }
         },
         "newPowerShellRunbookName2": {
-            "value": "psrunbook-orchestratorgetteamscalldetailrecords"
+            "value": "psrunbook-exportpbireport"
         },
         "newPowerShellRunbookDescription2": {
-            "value": "PowerShell Script to execute multiple instances of the runbook GetTeamsCallDetailRecords"
+            "value": "PowerShell Script to export a PBI Report to a Storage Account"
         },
         "newPowerShellRunbookTags2": {
             "value": {
                 "BusinessUnit": "IGUnified",
-                "FinalCustomer": "Linea Directa",
+                "FinalCustomer": "SUMMA",
                 "ApplicationName": "TeamsBI",
-                "Environment": "Prod",
-                "Owner": "jmartinez,jvasquezb"
-            }
-        },
-        "newPowerShellRunbookName3": {
-            "value": "psrunbook-updateuserteamsmeetingsfolderid"
-        },
-        "newPowerShellRunbookDescription3": {
-            "value": "PowerShell Script used to manually update the TeamsMeetings FolderId for a particular Teams user"
-        },
-        "newPowerShellRunbookTags3": {
-            "value": {
-                "BusinessUnit": "IGUnified",
-                "FinalCustomer": "Linea Directa",
-                "ApplicationName": "TeamsBI",
-                "Environment": "Prod",
+                "Environment": "Dev",
                 "Owner": "jmartinez,jvasquezb"
             }
         }
