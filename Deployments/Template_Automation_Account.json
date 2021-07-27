@@ -33,18 +33,6 @@
         "credsPassword1": {
             "type": "String"
         },
-        "credsName2": {
-            "type": "String"
-        },
-        "credsUsername2": {
-            "type": "String"
-        },
-        "credsDescription2": {
-            "type": "String"
-        },
-        "credsPassword2": {
-            "type": "String"
-        },
         "varName": {
             "type": "String"
         },
@@ -90,15 +78,6 @@
         "varDescription4": {
             "type": "String"
         },
-        "varName5": {
-            "type": "String"
-        },
-        "varValue5": {
-            "type": "String"
-        },
-        "varDescription5": {
-            "type": "String"
-        },
         "newPowerShellRunbookName": {
             "type": "String"
         },
@@ -126,16 +105,6 @@
             "type": "String"
         },
         "newPowerShellRunbookTags2": {
-            "type": "object",
-            "defaultValue": {}
-        },
-        "newPowerShellRunbookName3": {
-            "type": "String"
-        },
-        "newPowerShellRunbookDescription3": {
-            "type": "String"
-        },
-        "newPowerShellRunbookTags3": {
             "type": "object",
             "defaultValue": {}
         }
@@ -180,19 +149,6 @@
                         "userName": "[parameters('credsUsername1')]",
                         "description": "[parameters('credsDescription1')]",
                         "password": "[parameters('credsPassword1')]"
-                    }
-                },
-                {
-                    "type": "Microsoft.Automation/automationAccounts/credentials",
-                    "apiVersion": "2015-10-31",
-                    "name": "[concat(parameters('accountName'), '/', parameters('credsName2'))]",
-                    "dependsOn": [
-                        "[concat('Microsoft.Automation/automationAccounts/', parameters('accountName'))]"
-                    ],
-                    "properties": {
-                        "userName": "[parameters('credsUsername2')]",
-                        "description": "[parameters('credsDescription2')]",
-                        "password": "[parameters('credsPassword2')]"
                     }
                 },
                 {
@@ -261,19 +217,6 @@
                     }
                 },
                 {
-                    "type": "Microsoft.Automation/automationAccounts/variables",
-                    "apiVersion": "2015-10-31",
-                    "name": "[concat(parameters('accountName'), '/', parameters('varName5'))]",
-                    "dependsOn": [
-                        "[concat('Microsoft.Automation/automationAccounts/', parameters('accountName'))]"
-                    ],
-                    "properties": {
-                        "isEncrypted": false,
-                        "value": "[parameters('varValue5')]",
-                        "description": "[parameters('varDescription5')]"
-                    }
-                },
-                {
                     "type": "Microsoft.Automation/automationAccounts/runbooks",
                     "apiVersion": "2018-06-30",
                     "name": "[concat(parameters('accountName'), '/', parameters('newPowerShellRunbookName'))]",
@@ -321,24 +264,6 @@
                     "properties": {
                         "runbookType": "PowerShell",
                         "description": "[parameters('newPowerShellRunbookDescription2')]",
-                        "logVerbose": false,
-                        "logProgress": false,
-                        "logActivityTrace": 0,
-                        "draft": {}
-                    }
-                },
-                {
-                    "type": "Microsoft.Automation/automationAccounts/runbooks",
-                    "apiVersion": "2018-06-30",
-                    "name": "[concat(parameters('accountName'), '/', parameters('newPowerShellRunbookName3'))]",
-                    "location": "[resourceGroup().location]",
-                    "tags": "[parameters('newPowerShellRunbookTags3')]",
-                    "dependsOn": [
-                        "[concat('Microsoft.Automation/automationAccounts/', parameters('accountName'))]"
-                    ],
-                    "properties": {
-                        "runbookType": "PowerShell",
-                        "description": "[parameters('newPowerShellRunbookDescription3')]",
                         "logVerbose": false,
                         "logProgress": false,
                         "logActivityTrace": 0,
